@@ -1,0 +1,48 @@
+:root {
+    --font-family: 'Roboto', sans-serif;
+    --font-size-h1: 2.5rem;
+    --font-size-h2: 2rem;
+    --font-size-h3: 1.75rem;
+    --font-size-body: 1rem;
+    --color-primary: #333;
+    --color-secondary: #555;
+    --color-accent: #007bff;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+footer {
+    margin-top: auto;
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+}
+
+h1 {
+    font-size: var(--font-size-h1);
+    color: var(--color-primary);
+    font-weight: var(--font-weight-bold);
+}
+
+h2 {
+    font-size: var(--font-size-h2);
+    color: var(--color-secondary);
+    font-weight: var(--font-weight-bold);
+}
+
+h3 {
+    font-size: var(--font-size-h3);
+    color: var(--color-secondary);
+    font-weight: var(--font-weight-normal);
+}
+
+footer {
+    margin-top: auto;
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+}
